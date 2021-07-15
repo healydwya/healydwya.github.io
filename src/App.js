@@ -1,23 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import graphic from './HealyGraphic.PNG';
+import './App.scss';
+import About from './About';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+      <div className="menu">
+        <a href="/"> 
+          Healy Dwyer
         </a>
+        <a href="#about"> 
+          About
+        </a>
+        <a href="#projects"> 
+          Projects
+        </a>
+        <a href="#contact"> 
+          Contact
+        </a>
+      </div>
+      <header id="header" className="App-header">
+        <div className="header-text">
+          <div>
+            <h1> Howdy! </h1>
+            <p> I'm Healy - a bicycle-riding software engineer, transportation advocate, and @CMUHCII graduate student. </p>
+            <button> Let's rodeo </button>
+          </div>
+          <img src={graphic} className="App-logo" alt="logo" />
+        </div>
       </header>
+      <div id="about">
+          <About></About>
+      </div>
     </div>
   );
 }
