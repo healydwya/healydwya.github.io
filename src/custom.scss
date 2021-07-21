@@ -1,0 +1,15 @@
+/* make the customizations */
+$theme-colors: (
+    "info": tomato,
+    "danger": teal
+);
+
+.btn.btn-primary {
+    background-color: #3D550C;
+    padding: 16px;
+    font-size: 20px;
+    width: 200px;
+}
+
+/* import bootstrap to set changes */
+@import "~bootstrap/scss/bootstrap";
