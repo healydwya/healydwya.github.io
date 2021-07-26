@@ -1,6 +1,8 @@
+@import "variables";
+
 .about-page {
     h1 {
-        color: #3D550C;
+        color: $darkgreen;
         padding: 20px;
         font-size: 60px;
     }
@@ -14,7 +16,7 @@
             width: 50vw;
             padding: 0 20px;
             p {
-                color: #3D550C;
+                color: $darkgreen;
                 font-size: 18px;
             }
             a {
@@ -22,7 +24,7 @@
                 font-weight: 700;
                 color: #3D550C;
                 &:hover {
-                    color: #41abb7;
+                    color: $lightblue;
                 }
             }
         }
