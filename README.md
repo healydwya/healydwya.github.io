@@ -1,3 +1,7 @@
-# Site in progress
+Built using React 
 
-For now, feel free to visit my LinkedIn at https://linkedin.com/in/healydwyer! 
+To run - 
+
+# npm install
+
+# npm start
