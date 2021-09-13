@@ -59,7 +59,7 @@ class App extends React.Component {
                 <h1> Hello! </h1>
               }
               {this.state.theme === 'steelers' &&
-                <h1> Hey Yinz Guys! </h1>
+                <h1> Hey Yinz! </h1>
               }
               {this.state.theme === 'jags' &&
                 <h1> DUUUUUVAL </h1>
