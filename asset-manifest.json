@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.17ea0ee0.chunk.css",
+    "main.js": "/static/js/main.c7e75474.chunk.js",
+    "main.js.map": "/static/js/main.c7e75474.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f27f2788.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f27f2788.js.map",
+    "static/js/2.e222227c.chunk.js": "/static/js/2.e222227c.chunk.js",
+    "static/js/2.e222227c.chunk.js.map": "/static/js/2.e222227c.chunk.js.map",
+    "static/js/3.37548b80.chunk.js": "/static/js/3.37548b80.chunk.js",
+    "static/js/3.37548b80.chunk.js.map": "/static/js/3.37548b80.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.17ea0ee0.chunk.css.map": "/static/css/main.17ea0ee0.chunk.css.map",
+    "static/js/2.e222227c.chunk.js.LICENSE.txt": "/static/js/2.e222227c.chunk.js.LICENSE.txt",
+    "static/media/backpack.7b19e51c.PNG": "/static/media/backpack.7b19e51c.PNG",
+    "static/media/bike.fae98dcc.PNG": "/static/media/bike.fae98dcc.PNG",
+    "static/media/cowgirl.7a469e98.PNG": "/static/media/cowgirl.7a469e98.PNG",
+    "static/media/healy.3d42345c.PNG": "/static/media/healy.3d42345c.PNG",
+    "static/media/hiker.b61263bb.PNG": "/static/media/hiker.b61263bb.PNG",
+    "static/media/jags.24db2749.PNG": "/static/media/jags.24db2749.PNG",
+    "static/media/lowercase.52a8ff03.PNG": "/static/media/lowercase.52a8ff03.PNG",
+    "static/media/steelers.ed3ef6b8.PNG": "/static/media/steelers.ed3ef6b8.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f27f2788.js",
+    "static/js/2.e222227c.chunk.js",
+    "static/css/main.17ea0ee0.chunk.css",
+    "static/js/main.c7e75474.chunk.js"
+  ]
+}
