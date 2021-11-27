@@ -10,7 +10,6 @@ function Footer(props) {
     return (
         <div>
             <div className="find-me-sec">
-                <h1> Find Me Here </h1>
                 <div className="icons">
                     <a href="http://github.com/healydwya" rel="noreferrer" target="_blank"><FaGithub></FaGithub></a>
                     <a href="mailto:healydwyer@gmail.com" rel="noreferrer" target="_blank"><MdEmail></MdEmail></a>
@@ -23,6 +22,6 @@ function Footer(props) {
             </div>
         </div>
     );
-  }
+}
 
 export default Footer;

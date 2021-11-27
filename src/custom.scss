@@ -11,5 +11,9 @@ $theme-colors: (
     width: 200px;
 }
 
+* {
+    background-color: #F7EBDB;
+  }
+
 /* import bootstrap to set changes */
 @import "~bootstrap/scss/bootstrap";

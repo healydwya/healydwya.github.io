@@ -1,6 +1,12 @@
 @import 'variables';
 
 .skills-page {
+    a {
+        text-decoration: none;
+    }
+    h2 {
+        color: #3D550C;
+    }
     h1 {
         padding: 20px;
         color: #3D550C;
@@ -11,6 +17,7 @@
         align-items: center;
         .col {
             display: flex;
+            flex-direction: column;
             align-items: center;
             p {
                 font-size: 24px;
@@ -18,6 +25,46 @@
             }
         }
     }
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        margin: 10px;
+        width: 90vw;
+        height: 25vw;
+        background: #F7EBDB;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        &:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            }
+            .card-img {
+                width: 20%;
+                padding: 20px;
+                align-self: center;
+            }
+            .card-text {
+                padding: 20px;      
+                display: flex;          
+                flex-direction: column;
+                justify-content: space-around;
+                .desc {
+                    font-size: 14px;
+                }
+                .methods {
+                    padding-top: 10px;
+                    display: flex;
+                    div {
+                        border-radius: 20px;
+                        margin-right: 8px;
+                        padding: 8px;
+                        background-color: #3D550C;
+                        color: #fff;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
 }
 
 @media (max-width: 1024px) { 

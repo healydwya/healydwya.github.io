@@ -1,14 +1,16 @@
 @import "variables";
 
 .about-page {
+    padding: 40px;
     h1 {
-        color: $darkgreen;
+        color: #3D550C;
         padding: 20px;
         font-size: 60px;
     }
     .about-text {
         display: flex;
         align-items: center;
+        margin-bottom: 80px;
         img {
             height: 400px;
         }
@@ -24,7 +26,7 @@
                 font-weight: 700;
                 color: #3D550C;
                 &:hover {
-                    color: $lightblue;
+                    color: #e2806a;
                 }
             }
         }
