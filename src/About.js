@@ -3,7 +3,7 @@ import './About.scss';
 
 function About(props) {
   return (
-    <div className="about-page">
+    <div className="about-page scene_element scene_element scene_element--fadeinup">
       <h1> About Me </h1>
       <div className="about-text">
         <img src={bike} className="App-logo" alt="logo" />

@@ -135,6 +135,9 @@
         }
         &.web-name {
           color: #3D550C;
+          &:hover {
+            color: #2a3b09;
+          }
         }
       }
     }

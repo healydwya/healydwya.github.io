@@ -27,7 +27,7 @@ class Home extends React.Component {
 
     render() {
         return (
-            <header id="header" className="App-header">
+            <header id="header" className="App-header scene_element scene_element--fadeinup">
                 <div className="header-text">
                     <div>
                         {this.state.theme === 'cowgirl' &&
@@ -45,22 +45,22 @@ class Home extends React.Component {
                         <p> I'm Healy - a bicycle-riding UX Researcher, transportation advocate, and <a rel="noreferrer" target="_blank" className="bounce" href="https://www.hcii.cmu.edu/academics/mhci">@CMUHCII</a> graduate student. </p>
                         <p className="small-text"> For more fun, try <a onClick={(e) => this.changeTheme('cowgirl', e)} href="/"> Western, </a> <a className="bounce" onClick={(e) => this.changeTheme('jags', e)} href="/"> Jacksonville, </a>  or <a className="bounce" onClick={(e) => this.changeTheme('steelers', e)} href="/"> Pittsburgh Mode </a> </p>
                         {this.state.theme === 'cowgirl' &&
-                            <Link to="/projects" className="link-body">
+                            <Link to="/work" className="link-body">
                                 <Button>Let's rodeo </Button>
                             </Link>
                         }
                         {this.state.theme === 'healy' &&
-                            <Link to="/projects" className="link-body">
-                                <Button>Learn More </Button>
+                            <Link to="/work" className="link-body">
+                                <Button> View Projects </Button>
                             </Link>
                         }
                         {this.state.theme === 'steelers' &&
-                            <Link to="/projects" className="link-body">
+                            <Link to="/work" className="link-body">
                                 <Button>Let's get pierogis </Button>
                             </Link>
                         }
                         {this.state.theme === 'jags' &&
-                            <Link to="/projects" className="link-body">
+                            <Link to="/work" className="link-body">
                                 <Button>Let's go Jags! </Button>
                             </Link>
                         }

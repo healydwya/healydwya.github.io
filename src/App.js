@@ -11,6 +11,7 @@ import {
 } from "react-router-dom";
 import Skills from './Skills';
 import Ucre from './Ucre';
+import resume from './Healy_Dwyer_2021_resume.pdf';
 
 class App extends React.Component {
   constructor(props) {
@@ -39,7 +40,7 @@ class App extends React.Component {
             <div className="sub-menu">
               <NavLink to='/about'>About</NavLink>
               <NavLink to='/work'>Work</NavLink>
-              <a href="#contact">Resume </a>
+              <a href={resume} target="_blank" rel="noreferrer">Resume </a>
             </div>
             {/*               <Link to="/about" className="link-body">
                 About

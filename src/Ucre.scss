@@ -1,0 +1,45 @@
+@import "custom";
+@import "variables";
+
+.ucre-page {
+    p {
+        padding: 0 40px;
+    }
+    padding: 0 200px;
+    .work-img {
+        display: flex;
+        justify-content: center;
+        img {
+            height: 400px;
+        }
+    }
+    h1 {
+        padding-left: 40px;
+        color: $lightgreen;
+    }
+    .row {
+        padding: 40px;
+        display: flex;
+        .team {
+            display: flex;
+            flex-direction: column;
+            .bold {
+                font-weight: 700;
+            }
+        }
+        .problem {
+            width: 30%;
+        }
+        .title {
+            font-size: 20px;
+            font-weight: 700;
+            color: $lightgreen;
+        }
+        p {
+            color: $lightgreen;
+        }
+        .summary {
+            width: 100%;
+        }
+    }
+}
