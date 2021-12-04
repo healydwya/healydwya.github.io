@@ -2,8 +2,22 @@
 @import "variables";
 
 .ucre-page {
+    a {
+        text-decoration: none;
+        .back-section {
+            color: $lightgreen;
+            font-weight: 700;
+            .icon {
+                padding-right: 4px;
+            }
+            &:hover {
+                color: $darkgreen;
+                cursor: pointer;
+            }
+        }
+    }
     p {
-        padding: 0 40px;
+       
     }
     padding: 0 200px;
     .work-img {
@@ -15,10 +29,10 @@
     }
     h1 {
         padding-left: 40px;
-        color: $lightgreen;
+        color: $darkgreen;
     }
     .row {
-        padding: 40px;
+        padding: 20px 40px;
         display: flex;
         .team {
             display: flex;
@@ -28,7 +42,6 @@
             }
         }
         .problem {
-            width: 30%;
         }
         .title {
             font-size: 20px;
@@ -36,10 +49,46 @@
             color: $lightgreen;
         }
         p {
-            color: $lightgreen;
+            color: $darkgreen;
+            &.solution {
+                font-size: 24px;
+                color: $lightgreen;
+            }
         }
         .summary {
             width: 100%;
         }
+        li {
+            color: $darkgreen;
+
+            padding: 4px;
+        }
+    }
+    .methods {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        img {
+            width: 50vw;
+            margin: 20px;
+        }
+        h2 {
+            color: $lightgreen;
+            font-size: 20px;
+            padding-top: 20px;
+        }
+        .insight {
+            display: flex;
+            align-items: center;
+            padding: 20px 40px;
+            h2 {
+                margin-left: 10px;
+            }
+        }
+    }
+    .svg-inline--fa {
+        color: $lightgreen;
+        font-size: 32px;
     }
 }

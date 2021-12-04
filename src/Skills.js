@@ -3,6 +3,8 @@ import misty from './misty.png';
 import library from './KYB.png';
 import './Skills.scss';
 import { Link } from 'react-router-dom';
+import bias from './bias.png';
+import graphic from './graphic.png';
 
 function Skills(props) {
     return (
@@ -12,35 +14,35 @@ function Skills(props) {
                 <div className="row">
                     <Link to="/ucre" className="link-body">
                         <div className="card">
-                            <div class="row">
-                                <img src={backpack} className="card-img" alt="logo" />
+                            <div className="row">
+                                <img src={graphic} className="card-img" alt="logo" />
                                 <div className="card-text">
                                     <div>
-                                        <h2> Algorithmic Activism </h2>
+                                        <h2> Mixed Methods UX Researcher </h2>
                                         <p className="desc"> Carnegie Mellon Human-Computer Interaction Institute </p>
                                     </div>
                                     <div>
-                                        <p> Connect and empower users to take action against algorithmic bias on social media platforms </p>
+                                        <p className="long-desc"> Studying how to encourage everyday users to audit algorithmic bias on social media platforms </p>
                                     </div>
                                 </div>
                             </div>
                             <div className="methods">
                                 <div> Contextual Inquiry </div>
                                 <div> Think-Aloud Testing </div>
-                                <div> Speed Dating </div>
+                                <div> Python </div>
                             </div>
                         </div>
                     </Link>
                     <div className="card">
-                        <div class="row">
+                        <div className="row">
                             <img src={misty} className="card-img" alt="logo" />
                             <div className="card-text">
                                 <div>
-                                    <h2> Pedestrian-Robot Interaction </h2>
+                                    <h2> Mixed Methods UX Researcher </h2>
                                     <p className="desc"> Carnegie Mellon Robotics Institute + Kiwibot </p>
                                 </div>
                                 <div>
-                                    <p> Utilizing sound to improve pedestrian comfort with robots that share the sidewalk </p>
+                                    <p className="long-desc"> Investigating the effect of sound on human perceptions of pedestrian robots that share the sidewalk</p>
                                 </div>
                             </div>
                         </div>

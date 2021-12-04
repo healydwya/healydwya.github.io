@@ -18,7 +18,7 @@ function Footer(props) {
             </div>
             <div className="copyright">
                 <img src={hiker} className="App-logo" alt="logo" />
-                <p> &copy; 2021, made with <FontAwesomeIcon icon={faHeart} /> by <a href="http://github.com/healydwya/healydwya.github.io" target="_blank" rel="noreferrer"> Healy Dwyer</a> </p>
+                <p> &copy; 2021, made with React &amp; <FontAwesomeIcon icon={faHeart} /> by <a href="http://github.com/healydwya/healydwya.github.io" target="_blank" rel="noreferrer"> Healy Dwyer</a> </p>
             </div>
         </div>
     );

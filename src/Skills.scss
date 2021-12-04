@@ -27,7 +27,7 @@
             p {
                 padding-bottom: 10px;
                 margin: 4px;
-                font-size: 24px;
+                font-size: 20px;
                 color: #012b09;
             }
         }
@@ -72,6 +72,7 @@
                 display: flex;
                 width: 100%;
                 margin: 20px;
+                padding: 20px;
                 div {
                     display: flex;
                     align-items: center;
@@ -86,7 +87,7 @@
         }
 }
 
-@media (max-width: 1024px) { 
+@media (max-width: 768px) { 
     .skills-page {
         .App-logo {
             display: none;
@@ -111,6 +112,7 @@
         .card {
             height: 80vw;
             width: 80vw;
+            padding: 20px;
             .card-text {
                 padding: 4px;
             }
@@ -119,8 +121,8 @@
             }
             .methods {
                 margin-left: 4px;
-                padding-top: 4px;
                 display: flex;
+                padding: 4px;
                 div {
                     display: flex;
                     align-items: center;
@@ -132,5 +134,61 @@
                 }
             }
         }
+    }
+    .long-desc {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) { 
+    .skills-page {
+        .App-logo {
+            display: none;
+        }
+        h1 {
+            text-align: center;
+            font-size: 40px;
+        }
+        h2 {
+            color: #3D550C;
+            font-size: 14px;
+        }
+        .skills-text {
+            flex-direction: column;
+            .row {
+                flex-direction: column;
+                p {
+                    font-size: 12px;
+                }
+            }
+        }
+        .card {
+            height: 40vw;
+            width: 40vw;
+            padding: 20px;
+            .card-text {
+                padding: 4px;
+            }
+            .card-img {
+                padding: 4px;
+            }
+            .methods {
+                margin-left: 4px;
+                display: flex;
+                padding: 4px;
+                div {
+                    display: flex;
+                    align-items: center;
+                    border-radius: 20px;
+                    background-color: #3D550C;
+                    color: #fff;
+                    font-size: 8px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .long-desc {
+        display: none;
     }
 }

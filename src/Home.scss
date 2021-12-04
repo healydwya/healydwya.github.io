@@ -67,6 +67,9 @@
     .section {
         width: 100%;  
         padding: 40px;
+        &:last-child {
+          padding-bottom: 0;
+        }
     }
 
   .App-logo {
