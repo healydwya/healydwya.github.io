@@ -36,7 +36,8 @@
 
 @media (max-width: 1024px) {
     .about-page {
-        width: 100%;
+        overflow-x: hidden;
+        width: 80vw;
         text-align: center;
         h1 {
             font-size: 40px;
