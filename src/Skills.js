@@ -15,7 +15,7 @@ function Skills(props) {
                     <Link to="/ucre" className="link-body">
                         <div className="card">
                             <div className="row">
-                                <img src={graphic} className="card-img" alt="logo" />
+                                <img src={graphic} className="card-img alg" alt="logo" />
                                 <div className="card-text">
                                     <div>
                                         <h2> Mixed Methods UX Researcher </h2>
@@ -35,7 +35,7 @@ function Skills(props) {
                     </Link>
                     <div className="card">
                         <div className="row">
-                            <img src={misty} className="card-img" alt="logo" />
+                            <img src={misty} className="card-img misty" alt="logo" />
                             <div className="card-text">
                                 <div>
                                     <h2> Mixed Methods UX Researcher </h2>

@@ -118,6 +118,12 @@
             }
             .card-img {
                 padding: 4px;
+                &.misty {
+                    width: 40%;
+                }
+                &.alg {
+                    width: 60%;
+                }
             }
             .methods {
                 margin-left: 4px;
