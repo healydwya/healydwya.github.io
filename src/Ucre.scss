@@ -7,8 +7,12 @@
         .back-section {
             color: $lightgreen;
             font-weight: 700;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
             .icon {
                 padding-right: 4px;
+                font-size: 16px;
             }
             &:hover {
                 color: $darkgreen;
@@ -16,20 +20,23 @@
             }
         }
     }
-    p {
-       
-    }
     padding: 0 200px;
     .work-img {
         display: flex;
         justify-content: center;
+        width: 100%;
         img {
             height: 400px;
+        }
+        &.row {
+            img {
+                padding: 20px;
+            }
         }
     }
     h1 {
         padding-left: 40px;
-        color: $darkgreen;
+        color: $lightgreen;
     }
     .row {
         padding: 20px 40px;
@@ -37,31 +44,36 @@
         .team {
             display: flex;
             flex-direction: column;
+            width: 100%;
             .bold {
                 font-weight: 700;
             }
         }
-        .problem {
-        }
         .title {
-            font-size: 20px;
+            font-size: 26px;
             font-weight: 700;
             color: $lightgreen;
         }
         p {
-            color: $darkgreen;
+            color: $lightgreen;
             &.solution {
                 font-size: 24px;
                 color: $lightgreen;
+            }
+            &.back-section {
+                cursor: pointer;
             }
         }
         .summary {
             width: 100%;
         }
         li {
-            color: $darkgreen;
+            color: $lightgreen;
 
             padding: 4px;
+        }
+        img {
+            height: 400px;
         }
     }
     .methods {
@@ -69,9 +81,13 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        img {
-            width: 50vw;
-            margin: 20px;
+        .work-img {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            img {
+                margin: 20px;
+            }
         }
         h2 {
             color: $lightgreen;
@@ -90,5 +106,46 @@
     .svg-inline--fa {
         color: $lightgreen;
         font-size: 32px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) { 
+    .ucre-page {
+        padding: 0;
+        .work-img {
+            img {
+                height: 200px;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) { 
+    .ucre-page {
+        padding: 0;
+        .work-img {
+            img {
+                height: 20vh;
+            }
+            &.row {
+                justify-content: flex-start;
+                padding: 0;
+                img {
+                    padding: 0;
+                }
+            }
+        }
+        .row {
+            p {
+                color: $lightgreen;
+                &.solution {
+                    font-size: 16px;
+                    color: $lightgreen;
+                }
+                &.back-section {
+                    cursor: pointer;
+                }
+            }
+        }
     }
 }
