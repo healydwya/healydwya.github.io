@@ -43,7 +43,7 @@ class Home extends React.Component {
                             <h1> DUUUUUVAL </h1>
                         }
                         <p> I'm Healy - a bicycle-riding UX Researcher, transportation advocate, and <a rel="noreferrer" target="_blank" className="bounce" href="https://www.hcii.cmu.edu/academics/mhci">@CMUHCII</a> graduate student. </p>
-                        <p className="small-text"> For more fun, try <a onClick={(e) => this.changeTheme('cowgirl', e)} href="/"> Western, </a> <a className="bounce" onClick={(e) => this.changeTheme('jags', e)} href="/"> Jacksonville, </a>  or <a className="bounce" onClick={(e) => this.changeTheme('steelers', e)} href="/"> Pittsburgh Mode </a> </p>
+                        <p className="small-text"> For more fun, try <a className="mode" onClick={(e) => this.changeTheme('cowgirl', e)} href="/"> Western, </a> <a className="mode" onClick={(e) => this.changeTheme('jags', e)} href="/"> Jacksonville, </a>  or <a className="mode" onClick={(e) => this.changeTheme('steelers', e)} href="/"> Pittsburgh Mode </a> </p>
                         {this.state.theme === 'cowgirl' &&
                             <Link to="/work" className="link-body">
                                 <Button>Let's rodeo </Button>

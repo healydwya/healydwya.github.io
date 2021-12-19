@@ -13,7 +13,7 @@
     h1 {
         padding: 20px;
         color: #3D550C;
-        font-size: 60px;
+        font-size: 44px;
     }
     .skills-text {
         justify-content: center;
@@ -38,7 +38,7 @@
         margin: 10px;
         width: 40vw;
         height: 25vw;
-        background: #F7EBDB;
+        background: #fff;
         cursor: pointer;
         display: flex;
         border-radius: 30px;
@@ -79,7 +79,7 @@
                     border-radius: 20px;
                     margin-right: 8px;
                     padding: 8px;
-                    background-color: #3D550C;
+                    background-color: $lightgreen;
                     color: #fff;
                     font-size: 12px;
                 }
@@ -133,7 +133,7 @@
                     display: flex;
                     align-items: center;
                     border-radius: 20px;
-                    background-color: #3D550C;
+                    background-color: $lightgreen;
                     color: #fff;
                     font-size: 8px;
                     text-align: center;
@@ -186,7 +186,7 @@
                     display: flex;
                     align-items: center;
                     border-radius: 20px;
-                    background-color: #3D550C;
+                    background-color: $lightgreen;
                     color: #fff;
                     font-size: 8px;
                     text-align: center;

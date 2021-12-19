@@ -1,17 +1,12 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #F7EBDB;
+  background: #fff;
   overflow-x: hidden;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
 
 @media (min-width: 1024px) {
@@ -19,3 +14,10 @@ code {
     padding: 50px 120px 0px;
   }
 }
+
+@font-face {
+  font-family: "SpicyRice-Regular";
+  src: local("SpicyRice-Regular"),
+   url("./fonts/SpicyRice-Regular.ttf") format("truetype");
+  font-weight: normal;
+  }

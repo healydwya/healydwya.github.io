@@ -1,5 +1,6 @@
 @import "custom";
 @import "variables";
+@import 'styles';
 
 .App {
   display: flex;
@@ -17,7 +18,7 @@
       padding: 20px;
       text-decoration: none;
       color: #8a996d;
-      font-family: 'Verdana', sans-serif;
+      font-family: "SpicyRice-Regular";;
       font-size: 20px;
       &:hover {
         color: #3D550C;
@@ -90,7 +91,7 @@
             font-size: 16px;
             border-radius: 4px;
             border: 1px solid #fff;
-            background: #3D550C;
+            background: $lightgreen;
             color: #fff;
             width: 200px;
           }
@@ -117,6 +118,7 @@
         display: none;
       }
       .web-name {
+        font-size: 44px;
         img {
           height: 168px;
         }
@@ -128,8 +130,8 @@
         padding: 20px;
         text-decoration: none;
         color: #8a996d;
-        font-family: 'Verdana', sans-serif;
-        font-size: 20px;
+        font-family: "SpicyRice-Regular";;
+        font-size: 26px;
         &.btn.btn-primary {
           color: #fff;
         }

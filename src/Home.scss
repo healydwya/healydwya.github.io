@@ -44,7 +44,7 @@
             font-size: 16px;
             border-radius: 10px;
             border: 1px solid #fff;
-            background: #3D550C;
+            background: $lightgreen;
             color: #fff;
             width: 200px;
             cursor: pointer;
@@ -89,7 +89,7 @@
       h1 {
         margin-top: 10vh;
         color: #3D550C;
-        font-size: 60px
+        font-size: 44px;
       }
       p {
         color: #012b09;
@@ -100,8 +100,12 @@
           margin: 40px 0;
         }
         a {
+          font-weight: 300;
           &:hover {
-            color: #3D550C;
+            color: $darkgreen;
+        }
+        &.mode {
+          font-family: 'SpicyRice-Regular';
         }
         }
       }
@@ -110,10 +114,13 @@
         font-size: 20px;
         border-radius: 10px;
         border: 1px solid #fff;
-        background: #3D550C;
+        background: $lightgreen;
         color: #fff;
         width: 200px;
         cursor: pointer;
+        &:hover {
+          background: #e2806a;
+        }
       }
       
       a {
@@ -130,6 +137,7 @@
 .arrow {
   text-align: center;
   margin-top: 8px;
+  color: $darkgreen;
 }
 
 .bounce {

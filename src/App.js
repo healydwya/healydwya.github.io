@@ -10,7 +10,8 @@ import {
   Link, NavLink
 } from "react-router-dom";
 import Skills from './Skills';
-import Ucre from './Ucre';
+import Ucre from './Ucre/Ucre';
+import HRI from './HRI/HRI';
 import resume from './Healy_Dwyer_2021_resume.pdf';
 
 class App extends React.Component {
@@ -61,6 +62,8 @@ class App extends React.Component {
           <Route path="/work" element={<Skills />}>
           </Route>
           <Route path="/ucre" element={<Ucre />}>
+          </Route>
+          <Route path="/hri" element={<HRI />}>
           </Route>
         </Routes>
       </Router>
