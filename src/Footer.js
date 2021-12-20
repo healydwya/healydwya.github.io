@@ -8,7 +8,7 @@ import { SiLinkedin } from 'react-icons/si';
 
 function Footer(props) {
     return (
-        <div>
+        <div className="col">
             <div className="find-me-sec">
                 <div className="icons">
                     <a href="http://github.com/healydwya" rel="noreferrer" target="_blank"><FaGithub></FaGithub></a>
@@ -17,7 +17,6 @@ function Footer(props) {
                 </div>
             </div>
             <div className="copyright">
-                <img src={hiker} className="App-logo" alt="logo" />
                 <p> &copy; 2021, made with React &amp; <FontAwesomeIcon icon={faHeart} /> by <a href="http://github.com/healydwya/healydwya.github.io" target="_blank" rel="noreferrer"> Healy Dwyer</a> </p>
             </div>
         </div>

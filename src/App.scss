@@ -18,7 +18,6 @@
       padding: 20px;
       text-decoration: none;
       color: #8a996d;
-      font-family: "ArtisualDecoRegular";;
       font-size: 20px;
       &:hover {
         color: #3D550C;
@@ -39,7 +38,8 @@
     .menu {
       padding: 10px;
       .web-name {
-        display: none;
+        color: $darkgreen;
+        font-family: "ArtisualDecoRegular";
       }
       a.mobile-name {
           font-size: 16px;
@@ -119,6 +119,7 @@
       }
       .web-name {
         font-size: 50px;
+        font-family: "ArtisualDecoRegular";
         img {
           height: 168px;
         }

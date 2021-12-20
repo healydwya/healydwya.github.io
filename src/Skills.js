@@ -57,7 +57,7 @@ function Skills(props) {
                         </div>
                     </Link>
                 </div>
-                <div className="row">
+                {/*                 <div className="row">
                     <div className="card">
                         <div className="row">
                             <img src={roto} className="card-img misty" alt="logo" />
@@ -98,7 +98,7 @@ function Skills(props) {
                             <div> Intercept Interviews </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     );

@@ -86,9 +86,6 @@ class Home extends React.Component {
                 <div className="section" id="projects">
                     <Skills></Skills>
                 </div>
-                <div className="section" id="contact">
-                    <Footer></Footer>
-                </div>
             </header>
         );
     }
