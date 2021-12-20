@@ -43,15 +43,6 @@ class App extends React.Component {
               <NavLink to='/work'>Work</NavLink>
               <a href={resume} target="_blank" rel="noreferrer">Resume </a>
             </div>
-            {/*               <Link to="/about" className="link-body">
-                About
-              </Link>
-              <Link to="/projects" className="link-body">
-                Projects
-              </Link>
-              <a href="#contact">
-                Resume
-              </a> */}
           </div>
         </div>
         <Routes>

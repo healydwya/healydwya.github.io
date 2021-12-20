@@ -18,7 +18,7 @@
       padding: 20px;
       text-decoration: none;
       color: #8a996d;
-      font-family: "SpicyRice-Regular";;
+      font-family: "ArtisualDecoRegular";;
       font-size: 20px;
       &:hover {
         color: #3D550C;
@@ -118,7 +118,7 @@
         display: none;
       }
       .web-name {
-        font-size: 44px;
+        font-size: 50px;
         img {
           height: 168px;
         }
@@ -130,7 +130,7 @@
         padding: 20px;
         text-decoration: none;
         color: #8a996d;
-        font-family: "SpicyRice-Regular";;
+        font-family: "ArtisualDecoRegular";;
         font-size: 26px;
         &.btn.btn-primary {
           color: #fff;
@@ -140,6 +140,11 @@
           &:hover {
             color: #2a3b09;
           }
+        }
+      }
+      .sub-menu {
+        a {
+          font-family: "Brandon";
         }
       }
     }

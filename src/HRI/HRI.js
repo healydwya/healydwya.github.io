@@ -3,7 +3,9 @@ import hri1 from '../hri1.png';
 import hri2 from '../hri2.png';
 import hri4 from '../hri3.png';
 import hri3 from '../hri4.JPG';
+import pdd2 from '../pdd2.jpg';
 import hri5 from '../hri5.png';
+import pdd1 from '../PDD1.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft, faGrinStars, faQuoteLeft, faQuoteRight } from '@fortawesome/free-solid-svg-icons';
 import { NavLink } from "react-router-dom";
@@ -14,114 +16,109 @@ function HRI(props) {
         window.scrollTo(0, 0)
     }, [])
     return (
-        <div className="ucre-page">
+        <div className="hri-page">
             <div className="row">
                 <NavLink to='/work'> <p className="back-section"> <FontAwesomeIcon className="icon" icon={faArrowLeft} /> Back to All Projects </p></NavLink>
             </div>
             <h1 className="title">
-                Algorithmic Activism
+                Pedestrian-Robot Interaction
             </h1>
-            <div className="work-img">
-                <img src={hri3} alt="logo" />
+            <div className="work-img row">
+                <img src={hri1} alt="logo" />
+                <img src={pdd2} alt="logo" />
             </div>
             <div className="row">
                 <div className="summary">
                     <div className="title"> My Role </div>
                     <ul>
-                        <li><b>Drove insights  </b>on how to harness the power of every day users to audit algorithmic bias </li>
-                        <li> <b>Led interviews </b> via directed storytelling, think-aloud testing, and generative + evaluative ideation with speed dating</li>
-                        <li> Analyzed Twitter dataset using <b> Python, Pandas, Seaborn, and Matplotlib </b> </li>
-                        <li> <b> Presented recommendations</b> to stakeholders and faculty </li>
+                        <li><b>Ran 16 live user tests </b> with four cases to study the effects of sound on pedestrian-robot interaction </li>
+                        <li> <b>Led interviews </b> alongside field observations and in-person user study</li>
+                        <li> Programmed robot to standardize test cases using <b> Javascript and Misty Robot Developer API </b> </li>
+                        <li> <b> Presented recommendations</b> to stakeholders, city planners, and policymakers at Pittsburgh PDD (Personal Delivery Device) Steering Committee </li>
                     </ul>
                 </div>
             </div>
             <div className="row">
                 <div className="summary">
                     <div className="title"> Overview </div>
-                    <p> People on social media are often harmed by algorithmic biases. This can lead to feelings of <b> isolation and frustration </b> with their own identities, other people, and the platforms they use. When there is a <b> lack of feedback </b>from the platform on what they're doing to solve these issues, <b>users become discouraged and do not try to create change. </b> </p>
-                    <p> Our team used <b>generative and evaluative research </b>to understand group dynamics and motivation. We <b> interviewed leaders of groups and community activists </b>and applied our findings to the concept of every day users auditing algorithmic bias. We then created a <b>framework of guidelines for social media </b> sites to implement to better pinpoint and root out these harmful biases on their platforms. </p>
+                    <p> I conducted research on the rollout of sidewalk delivery robots in Pittsburgh and investigated ways to <b>improve human-robot interaction in a pedestrian setting. </b> </p>
+                    <p> After synthesizing findings from observations, interviews, and our user study, I then presented insights and recommendations to the City of Pittsburgh's Department of Mobility and Infrastructure, representatives from the American Association of People with Disabilities, and leaders from Kiwibot, the delivery robot company. </p>
                 </div>
             </div>
             <div className="row">
                 <div className="problem">
                     <div className="title"> The Problem </div>
-                    <p className="question"> Algorithmic bias is a pervasive problem in many technologies utilizing AI and Machine Learning. This can be very harmful to end users of social media platforms, but developers and teams often have trouble pinpointing and rapidly addressing these issues which can lead to detrimental effects on end users and distrust of the platform. Our question we sought to answer was whether we could <b>utilize the power of every day social media users to more quickly identify and remove instances of algorithmic bias. </b> </p>
+                    <p className="question"> Personal Delivery Devices (PDDs) were legalized in 2020 to operate as legal "pedestrians" in the state of Pennsylvania, operating on sidewalks at up to 12 mph and weighing up to 550 lbs without goods on them. </p>
+                    <p> This has led to a host of accessibilty issues, safety concerns, and questions from residents on what this means for the future of our sidewalks. </p>
                 </div>
             </div>
             <div className="row">
                 <div className="team">
                     <div className="title"> Collaborators </div>
-                    <p className="members"> Pradeep Vegireddi, Gabriel Alvarez, Harvey Zheng</p>
+                    <p className="members"> Jacqueline Liao, David Weinberg, Sarah Fox, Nik Martelaro</p>
                     <div className="work-img">
-                        <img src={hri2} alt="logo" />
+                        <img src={hri3} alt="logo" />
                     </div>
                 </div>
             </div>
             <div className="row">
                 <div className="methods">
                     <div className="title"> Methods </div>
-                    <h2> Quantitative Analysis </h2>
-                    <p> Analyzed Twitter data set with over 2000 records to analyze three incidents of algorithmic bias on the platform and users engagement and reactions. This involved data wrangling, generating key concepts to filter by, using Python and other tools to run queries on it, and qualitatively analyzing and discussing our findings after.</p>
+                    <h2> Experimental Design </h2>
+                    <p> I wrote the JavaScript code for the four conditions we would test in our <b> within subjects </b>study. This would ensure each participant would experience conditions the same way with no variation in speed or timing.</p>
+                    <p> To avoid novelty or training effects, we <b> counterbalanced participants</b> so they would evenly experience the conditions in different orders.</p>
+                    <p> To offset the effect of proxemics on our test conditions, we taped a line on the floor that each participant would walk on. Then the robot would roll by them and play a <b> harmonic, mechanical, or verbal</b> sound at the five-second mark, with silence as the control condition.</p>
+                    <p> Participants after each condition would fill out a short <b> Likert Scale-based survey</b> to test common principles of discomfort to gauge how sound was effecting their perception and feelings. </p>
                     <div className="work-img">
-                        <img src={hri1} alt="dataset in excel" />
+                        <img src={hri4} alt="dataset in excel" />
                     </div>
                     <div className="insight">
                         <FontAwesomeIcon icon={faGrinStars} />
-                        <h2> Users were most engaged for 4-6 weeks after an incident occurred, then participation dropped off rapidly. </h2>
-                    </div>
-                    <h2> Think-Aloud Testing</h2>
-                    <p> I conducted a think-aloud testing session to talk through a person's experiences in online community forums, such as Reddit.</p>
-                    <p> It was crucial I made sure the participant was comfortable and knew there were no right or wrong answers, and that they could stop at any time. </p>
-                    <p> Our team learned a lot from this interview about how moderation plays into chat boards such as Reddit, how this user seeks out information related to his own interests, and what drives him to participate or take action on a problematic post or instance if he sees one. </p>
-                    <div className="work-img">
-                        <img src={hri4} alt="zoom recording of a think-aloud testing session" />
-                    </div>
-                    <div className="insight">
-                        <FontAwesomeIcon icon={faGrinStars} />
-                        <h2> Personal connection mattered - users were less likely to engage with content or discussion if they did not have a personal stake or interest in it. </h2>
-                    </div>
-                    <h2> Contextual Inquiry </h2>
-                    <p> I interviewed a community activist and group organizer on her experiences both leading and being a member of groups via the <b> Directed Storytelling</b> method. </p>
-                    <p> From our conversation, we derived knowledge on how important de-centralized leadership can be to a group, and how <b>tolerance must be widely practiced </b> for people to feel comfortable sharing their thoughts and opinions in a group setting. </p>
-                    <p> This interviewee also was excited about tackling algorithmic bias from the perspective of <b>bringing joy and community</b>  to people who have experienced it, versus only trying to solve the problem as a whole. This started our team's exploration of how in addition to encouraging reporting of online biases, we could also provide a support system or sense of community for people feeling isolated by bias.</p>
-                    <div className="work-img">
+                        <h2> Harmonic sound significantly increased pedestrian perception of robots as "sociable and not awkward". </h2>
                     </div>
                     <div className="insight">
                         <FontAwesomeIcon icon={faQuoteLeft} />
-                        <h2> I do feel a responsiblity to give feedback after using the feedback others give so often. </h2>
+                        <h2> No voice at all is little bit weird, I expected it to say something or make some sound instead of following me silently </h2>
                         <FontAwesomeIcon icon={faQuoteRight} />
+                    </div>
+                    <h2> Field Study </h2>
+                    <p> As part of a collaboration with Kiwibot, the City of Pittsburgh, and Carnegie Mellon I conducted <b>field observations and intercept interviews </b> from September - December 2021 during a pilot rollout of delivery robots. </p>
+                    <p> I spent time getting to know the area and neighborhood the deployment was running in, working with the robotics company, and synthesizing findings with colleagues to <b> discover common themes.</b>  </p>
+                    <p> I learned the importance of blending in for this more ethnographic study and how <b> taking notes or jottings during intercept interviews could change the dynamic </b> between the interviewee and me. It was a great lesson in how to balance immersing myself in a setting to emphathize with users while still ensuring I noted down the most accurate information possible. </p>
+                    <div className="work-img">
+                        <img src={pdd1} alt="zoom recording of a think-aloud testing session" />
+                    </div>
+                    <div className="work-img">
                     </div>
                     <div className="insight">
                         <FontAwesomeIcon icon={faGrinStars} />
-                        <h2> People need clear signs of progress to continue engaging in activism or other collective work.  </h2>
+                        <h2> Communication between robots and pedestrians is crucial to increase comfort and safety on the sidewalk.  </h2>
                     </div>
                     <div className="insight">
                         <FontAwesomeIcon icon={faQuoteLeft} />
-                        <h2> Seeing at-home, local impact is much more motivating </h2>
+                        <h2> The message helped me with my awareness that it was there </h2>
                         <FontAwesomeIcon icon={faQuoteRight} />
                     </div>
-                    <h2> Generative &amp; Evaluative Research via Speed Dating </h2>
-                    <p> Our final research method combined both evaluative and generative research as we storyboarded 12 concepts to quickly "speed date" with participants. </p>
-                    <p> We walked through each solution each at varying "risk levels" from online rewards systems for reporting bias all the way to a group of organizers actually showing up at your house to get you involved in their movement (this one was expectedly unpopular). </p>
-                    <p> We sythesized all our findings as a team and debriefed participants reactions and feedback on our storyboards in order to pinpoint the solutions that met and addressed users' core needs. This led us to identify two key needs of community support and signs of progress both personally and from the platform itself. </p>
                     <div className="work-img">
                         <img src={hri5} alt="screenshot of zoom storyboarding research session" />
+                        <img src={hri2} alt="screenshot of zoom storyboarding research session" />
                     </div>
                     <div className="insight">
                         <FontAwesomeIcon icon={faQuoteLeft} />
-                        <h2> I want to feel comfortable and feel like my voice matters</h2>
+                        <h2>Did you know it carries Pizza? That seems like an expensive way to deliver Pizza.</h2>
                         <FontAwesomeIcon icon={faQuoteRight} />
                     </div>
                     <div className="insight">
                         <FontAwesomeIcon icon={faGrinStars} />
-                        <h2> Community members need to feel welcomed and like their voices and unique perspectives are being heard.</h2>
+                        <h2> People need context and transparency as to what the purpose of PDDs are. </h2>
                     </div>
                 </div>
             </div>
             <div id="final-sol" className="row">
                 <div className="solution">
-                    <div className="title"> The Solution </div>
-                    <p className="solution"> Motivating users to report and call out bias by providing <b> clear feedback and tracking </b> along with spaces for anonymous <b> community support and personal connection. </b> </p>
+                    <div className="title"> Findings </div>
+                    <p className="solution"> Robots in pedestrian settings should employ <b> clear communication </b> and <b> audio + visual cues</b> to alert humans of their intent. Context and proxemics matter here and must be taken into consideration when choosing specific sounds. </p>
+                    <p className="solution"> Further research needs to be done on how to ensure these devices do not cause mobility problems for people with disabilities, and the study should encompass more of the city with a wide range of neighborhoods. </p>
                     <div className="work-img">
                     </div>
                 </div>

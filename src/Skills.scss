@@ -8,12 +8,17 @@
     h2 {
         color: #3D550C;
         font-size: 24px;
+        margin: 4px;
+    }
+    h3 {
+        color: #3D550C;
+        font-size: 20px;
         margin: 4px
     }
     h1 {
         padding: 20px;
         color: #3D550C;
-        font-size: 44px;
+        font-size: 60px;
     }
     .skills-text {
         justify-content: center;
@@ -38,7 +43,7 @@
         margin: 10px;
         width: 40vw;
         height: 25vw;
-        background: #fff;
+        background: $parchment;
         cursor: pointer;
         display: flex;
         border-radius: 30px;
@@ -73,6 +78,7 @@
                 width: 100%;
                 margin: 20px;
                 padding: 20px;
+                font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
                 div {
                     display: flex;
                     align-items: center;

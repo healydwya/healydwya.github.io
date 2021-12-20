@@ -18,7 +18,8 @@ function Skills(props) {
                                 <img src={graphic} className="card-img alg" alt="logo" />
                                 <div className="card-text">
                                     <div>
-                                        <h2> Mixed Methods UX Research </h2>
+                                        <h2> Algorithmic Activism </h2>
+                                        <h3> Mixed Methods UX Research </h3>
                                         <p className="desc"> Carnegie Mellon Human-Computer Interaction Institute </p>
                                     </div>
                                     <div>
@@ -39,7 +40,8 @@ function Skills(props) {
                                 <img src={misty} className="card-img misty" alt="logo" />
                                 <div className="card-text">
                                     <div>
-                                        <h2> Mixed Methods UX Research </h2>
+                                        <h2> Pedestrian-Robot Interaction </h2>
+                                        <h3> Mixed Methods UX Research </h3>
                                         <p className="desc"> Carnegie Mellon Robotics Institute + Kiwibot </p>
                                     </div>
                                     <div>
@@ -61,7 +63,8 @@ function Skills(props) {
                             <img src={roto} className="card-img misty" alt="logo" />
                             <div className="card-text">
                                 <div>
-                                    <h2> User Research &amp; Prototyping </h2>
+                                    <h2> Car Repair Everywhere </h2>
+                                    <h3> User Research &amp; Prototyping </h3>
                                     <p className="desc"> CSX Transportation </p>
                                 </div>
                                 <div>
@@ -80,7 +83,8 @@ function Skills(props) {
                             <img src={library} className="card-img misty" alt="logo" />
                             <div className="card-text">
                                 <div>
-                                    <h2> UX Research &amp; Design </h2>
+                                    <h2> Book Scout </h2>
+                                    <h3> UX Research &amp; Design </h3>
                                     <p className="desc"> Carnegie Library of Pittsburgh </p>
                                 </div>
                                 <div>
