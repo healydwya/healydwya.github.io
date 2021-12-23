@@ -12,6 +12,8 @@ import {
 import Skills from './Skills';
 import Ucre from './Ucre/Ucre';
 import HRI from './HRI/HRI';
+import Lib from './Lib/Lib';
+import CSX from './CSX/CSX';
 import resume from './Healy_Dwyer_2021_resume.pdf';
 import Footer from './Footer';
 
@@ -36,7 +38,7 @@ class App extends React.Component {
             <a className="web-name" href="/">
               Healy Dwyer
             </a>
-{/*             <a className="mobile-name" href="/">
+            {/*             <a className="mobile-name" href="/">
               <img src={lowercase} alt="logo" />
             </a> */}
             <div className="sub-menu">
@@ -56,6 +58,10 @@ class App extends React.Component {
           <Route path="/ucre" element={<Ucre />}>
           </Route>
           <Route path="/hri" element={<HRI />}>
+          </Route>
+          <Route path="/csx" element={<CSX />}>
+          </Route>
+          <Route path="/lib" element={<Lib />}>
           </Route>
         </Routes>
         <Footer></Footer>

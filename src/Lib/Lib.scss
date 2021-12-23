@@ -1,7 +1,7 @@
 @import "../custom";
 @import "../variables";
 
-.ucre-page {
+.lib-page {
     a {
         text-decoration: none;
         .back-section {
@@ -25,14 +25,19 @@
         display: flex;
         justify-content: center;
         width: 100%;
+        &.title {
+            img {
+                margin: 0;
+                height: 400px;
+            }
+        }
         img {
             height: 400px;
             margin: 20px;
         }
         &.row {
-            img {
-                padding: 20px;
-            }
+            display: flex;
+            padding: 0;
         }
     }
     h1 {
@@ -71,7 +76,7 @@
         }
         li {
             color: $lightgreen;
-            font-size: 18px;
+            font-size: 20px;
             padding: 4px;
         }
         img {
@@ -87,9 +92,6 @@
             display: flex;
             justify-content: center;
             width: 100%;
-            img {
-                margin: 20px;
-            }
         }
         h2 {
             color: $lightgreen;
@@ -112,7 +114,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 1024px) { 
-    .ucre-page {
+    .lib-page {
         padding: 0;
         .work-img {
             img {
@@ -123,7 +125,7 @@
 }
 
 @media (max-width: 767px) { 
-    .ucre-page {
+    .lib-page {
         padding: 0;
         .work-img {
             img {

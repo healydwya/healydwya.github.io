@@ -114,6 +114,8 @@
             flex-direction: column;
             .row {
                 flex-direction: column;
+                align-items: flex-start;
+                justify-content: space-between;
                 p {
                     font-size: 12px;
                 }
@@ -128,12 +130,6 @@
             }
             .card-img {
                 padding: 4px;
-                &.misty {
-                    width: 30%;
-                }
-                &.alg {
-                    width: 60%;
-                }
             }
             .methods {
                 margin-left: 4px;
