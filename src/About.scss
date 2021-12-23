@@ -1,14 +1,20 @@
 @import "variables";
+@import "styles";
 
 .about-page {
+    padding: 0 40px;
     h1 {
-        color: $darkgreen;
+        color: #3D550C;
         padding: 20px;
-        font-size: 60px;
+        font-size: 44px;
+        font-weight: 500;
+        margin-bottom: 0;
+        margin-top: 10vh;
     }
     .about-text {
         display: flex;
         align-items: center;
+        margin-bottom: 80px;
         img {
             height: 400px;
         }
@@ -24,7 +30,7 @@
                 font-weight: 700;
                 color: #3D550C;
                 &:hover {
-                    color: $lightblue;
+                    color: #e2806a;
                 }
             }
         }
@@ -33,7 +39,8 @@
 
 @media (max-width: 1024px) {
     .about-page {
-        width: 100%;
+        overflow-x: hidden;
+        width: 80vw;
         text-align: center;
         h1 {
             font-size: 40px;

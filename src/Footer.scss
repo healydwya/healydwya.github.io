@@ -1,40 +1,50 @@
+.col {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
 .copyright {
     display: flex;
-    align-items: flex-end;
-    height: 100px;
+    justify-content: center;
     .svg-inline--fa.fa-heart.fa-w-16 {
         color: pink;
     }
     p {
         color: #012b09;
+        font-size: 20px;
     }
     a {
         text-decoration: none;
         font-weight: 700;
         color: #012b09;
         &:hover {
-            color: #41abb7;
+            color: #e2806a;
         }
+    }
+    .hiker {
+        height: 80px;
+        padding-left: 20px;
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
     }
 }
 
 .find-me-sec {
-    height: 400px;
     display: flex;
-    justify-content: flex-start;
-    margin-left: 300px;
-    flex-direction: column;
+    justify-content: center;
     h1 {
         color: #3D550C;
-        font-size: 60px;
+        font-size: 44px;
     }
     .icons {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
         height: 100%;
         svg {
-            font-size: 80px;
+            padding: 0 10px;
+            font-size: 40px;
             color: #3D550C;
             opacity: .8;
             &:hover {
@@ -46,14 +56,13 @@
 
 @media (max-width: 1024px) { 
     .copyright {
-        justify-content: center;
+        padding: 20px;
+        text-align: center;
         margin-top: 20px;
         img {
             height: 100px;
         }
         p {
-            margin-left: 10px;
-            font-size: 12px;
             opacity: .8;
         }
     }
@@ -79,12 +88,9 @@
 @media (min-width: 1024px) {
     .copyright {
         p {
-            position: absolute;
-            left: 40vw;
+            text-align: center;
         }
         img {
-            position: absolute;
-            margin-top: 40px;
         }
     }
 }

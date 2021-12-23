@@ -1,0 +1,165 @@
+@import "custom";
+@import "variables";
+
+
+/* mobile styling */
+
+@media (max-width: 1024px) {
+
+.App-logo {
+    height: 60vmin;
+    pointer-events: none;
+}
+
+.App-header {
+    display: flex;
+    flex-direction: column;
+    .header-text {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0 10px;
+            h1 {
+            color: $lightgreen;
+            font-size: 40px;
+            margin: 0;
+            }
+            p {
+            color: $darkgreen;
+            font-size: 16px;
+            opacity: .8;
+            text-align: center;
+            &.small-text {
+                font-size: 16px;
+            }
+            }
+            button {
+            padding: 12px;
+            font-size: 16px;
+            border-radius: 10px;
+            border: 1px solid #fff;
+            background: $lightgreen;
+            color: #fff;
+            width: 200px;
+            cursor: pointer;
+            font-family: "Brandon";
+            }
+            a {
+            text-decoration: none;
+            color: #e2806a;
+            &.btn.btn-primary {
+                color: #fff;
+            }
+            }
+        }
+    }
+}
+}
+
+/* web styling */
+
+@media (min-width: 1024px) { 
+    .section {
+        width: 100%;  
+        padding: 40px;
+        &:last-child {
+          padding-bottom: 0;
+        }
+    }
+
+  .App-logo {
+    height: 60vmin;
+    pointer-events: none;
+  }
+
+  .App-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    .header-text {
+      display: flex;
+      align-items: center;
+      padding: 40px;
+      h1 {
+        margin-top: 10vh;
+        color: #3D550C;      
+        font-family: "Brandon";
+        font-size: 44px;
+        font-weight: 500;
+      }
+      p {
+        color: #012b09;
+        font-size: 28px;
+        font-family: "Brandon";
+        opacity: .8;
+        &.small-text {
+          font-size: 20px;
+          margin: 40px 0;
+        }
+        a {
+          font-weight: 700;
+          &:hover {
+            color: $darkgreen;
+        }
+        &.mode {
+        }
+        }
+      }
+      button {
+        padding: 16px;
+        font-size: 20px;
+        border-radius: 10px;
+        border: 1px solid #fff;
+        background: $lightgreen;
+        color: #fff;
+        width: 200px;
+        cursor: pointer;
+        font-family: "Brandon";
+        &:hover {
+          background: #e2806a;
+        }
+      }
+      
+      a {
+        text-decoration: none;
+        color: #e2806a;
+        &.btn.btn-primary {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+.arrow {
+  text-align: center;
+  margin-top: 8px;
+  color: $darkgreen;
+}
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+  color: #3D550C;
+  height: 200px;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}

@@ -1,13 +1,34 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Brandon";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #f7ebdb;
+  overflow-x: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@media (min-width: 1024px) {
+  body {
+    padding: 50px 120px 0px;
+  }
+}
+
+@font-face {
+  font-family: "SpicyRice-Regular";
+  src: local("SpicyRice-Regular"),
+   url("./fonts/SpicyRice-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "ArtisualDecoRegular";
+  src: local("ArtisualDecoRegular"),
+   url("./fonts/ArtisualDecoRegular.otf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Brandon";
+  src: local("Brandon_reg"),
+   url("./fonts/brandon/Brandon_reg.otf") format("truetype");
+  font-weight: normal;
 }
