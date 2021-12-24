@@ -36,31 +36,31 @@ function Lib(props) {
                 <div className="summary">
                     <div className="title"> My Role </div>
                     <ul>
-                        <li><b>Led field observations </b> in rail yards throughout the southeast region</li>
-                        <li> <b>Conducted interviews </b> and think-aloud sessions for <b>usability testing </b></li>
-                        <li> <b>Developed survey </b> and analyzed results to better understand railroad repair workers</li>
-                        <li> <b> Presented recommendations</b> to stakeholders, business partners, and development team which <b>increased efficiency of design and development process </b> and led to a <b>more dynamic code base </b> </li>
+                        <li><b>Led intercept interviews </b>at two local library branches and directed storytelling with library goers and librarians</li>
+                        <li> <b>Uncovered key pain points</b> in the library book locating process</li>
+                        <li> Collaborated with design team to <b>synthesize user research into prototypes for evaluative research </b> </li>
+                        <li> Conducted <b> think-alouds for usability testing</b> with lo-fi prototypes</li>
                     </ul>
                 </div>
             </div>
             <div className="row">
                 <div className="summary">
                     <div className="title"> Overview </div>
-                    <p> I conducted research on the rollout of sidewalk delivery robots in Pittsburgh and investigated ways to <b>improve human-robot interaction in a pedestrian setting. </b> </p>
-                    <p> After synthesizing findings from observations, interviews, and our user study, I then presented insights and recommendations to the City of Pittsburgh's Department of Mobility and Infrastructure, representatives from the American Association of People with Disabilities, and leaders from Kiwibot, the delivery robot company. </p>
+                    <p> Conducted rapid research in order to <b>improve the process of locating a book  </b>at a local library. Our team decided to narrow our scope due to the four week timeline to focus specifically on the <b>online search process.</b>  </p>
+                    <p> Our solution focused specifically on a common problem library-goers have - <b>users want to visit their nearest branch but also usually want the book as soon as possible. </b> We designed prototypes that balanced users' needs to visit their nearby branch with their desire to pick up a book as soon as possible. </p>
                 </div>
             </div>
             <div className="row">
                 <div className="problem">
                     <div className="title"> The Problem </div>
-                    <p className="question"> Personal Delivery Devices (PDDs) were legalized in 2020 to operate as legal "pedestrians" in the state of Pennsylvania, operating on sidewalks at up to 12 mph and weighing up to 550 lbs without goods on them. </p>
-                    <p> This has led to a host of accessibilty issues, safety concerns, and questions from residents on what this means for the future of our sidewalks. </p>
+                    <p className="question"> People often have trouble with many aspects of locating a library book. These issues include <b> differentiating by category (ex: audio, print, large print, etc)</b>, knowing <b>which library location </b> to look at, and seeing <b>when a book will be ready for pick up. </b> </p>
+                    <p> This can lead to users turning to other services such as big-box stores like Amazon instead of supporting their local libraries. Even if people decide to stick it out with the library, they often find it <b> confusing and are frustrated by the lack of transparency</b> throughout the process. </p>
                 </div>
             </div>
             <div className="row">
                 <div className="team">
                     <div className="title"> Collaborators </div>
-                    <p className="members"> Jacqueline Liao, David Weinberg, Sarah Fox, Nik Martelaro</p>
+                    <p className="members"> Josh Suber, Yo-Lei Chen, Adrian Ma</p>
                     <div className="work-img">
                         <img src={library} alt="logo" />
                         <img src={map} alt="logo" />
