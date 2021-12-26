@@ -50,7 +50,7 @@ function Skills(props) {
                             </div>
                             <div className="methods">
                                 <div> Surveys </div>
-                                <div> Experimental Design </div>
+                                <div> Participatory Design </div>
                                 <div> Statistical Analysis </div>
                             </div>
                         </div>
