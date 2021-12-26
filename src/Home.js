@@ -1,14 +1,13 @@
 import './Home.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
-import cowgirl from './cowgirl.PNG';
-import steelers from './steelers.PNG';
-import healy from './healy.PNG';
+import cowgirl from './cowgirl.webp';
+import steelers from './steelers.webp';
+import healy from './healy.webp';
 import Button from 'react-bootstrap/Button';
-import jags from './jags.PNG';
+import jags from './jags.webp';
 import './App.scss';
 import Skills from './Skills';
-import Footer from './Footer';
 import React from 'react';
 import { Link } from 'react-router-dom';
 

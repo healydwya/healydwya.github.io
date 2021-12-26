@@ -1,4 +1,3 @@
-import lowercase from './lowercase.PNG';
 import './App.scss';
 import About from './About';
 import Home from './Home';
@@ -6,8 +5,7 @@ import React from 'react';
 import {
   BrowserRouter as Router,
   Routes,
-  Route,
-  Link, NavLink
+  Route, NavLink
 } from "react-router-dom";
 import Skills from './Skills';
 import Ucre from './Ucre/Ucre';
