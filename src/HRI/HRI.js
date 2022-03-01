@@ -1,9 +1,9 @@
 import './HRI.scss';
-import hri1 from '../hri1.png';
+import hri1 from '../hri1.webp';
 import hri2 from '../hri2.png';
 import hri4 from '../hri3.png';
 import hri3 from '../hri4.JPG';
-import pdd2 from '../pdd2.jpg';
+import pdd2 from '../pdd2.webp';
 import hri5 from '../hri5.png';
 import pdd1 from '../PDD1.jpg';
 import survey from '../hrisurvey.png';
@@ -57,7 +57,7 @@ function HRI(props) {
             <div className="row">
                 <div className="team">
                     <div className="title"> Collaborators </div>
-                    <p className="members"> Jacqueline Liao, David Weinberg, Sarah Fox, Nik Martelaro</p>
+                    <p className="members"> Jacqueline Liao, David Weinberg, Sarah Fox, Nik Martelaro, Kiwibot, City of Pittsburgh Mobility and Infrastructure</p>
                     <div className="work-img">
                         <img src={hri3} alt="logo" />
                     </div>

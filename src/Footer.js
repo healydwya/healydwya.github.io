@@ -1,7 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
 import './Footer.scss';
-import hiker from "./hiker.PNG";
 import { FaGithub } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 import { SiLinkedin } from 'react-icons/si';

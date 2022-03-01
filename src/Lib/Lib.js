@@ -2,12 +2,8 @@ import './Lib.scss';
 import zoom from './zoom_lib.png';
 import libgif from './libgif.gif';
 import bookscout from './bookscout.png';
-import comp1 from './comp1.png';
 import comp2 from './comp2.png';
-import desktop from './desktopfinal.png';
-import mobile from './mobilefinal.png';
 import journeymap from './journeymap.png';
-import counter from './lib_counter.png';
 import library from './library.png';
 import map from './map.png';
 import wireframe from './wireframecrit.png';
@@ -70,66 +66,67 @@ function Lib(props) {
             <div className="row">
                 <div className="methods">
                     <div className="title"> Methods </div>
-                    <h2> Experimental Design </h2>
-                    <p> I wrote the JavaScript code for the four conditions we would test in our <b> within subjects </b>study. This would ensure each participant would experience conditions the same way with no variation in speed or timing.</p>
-                    <p> To avoid novelty or training effects, we <b> counterbalanced participants</b> so they would evenly experience the conditions in different orders.</p>
-                    <p> To offset the effect of proxemics on our test conditions, we taped a line on the floor that each participant would walk on. Then the robot would roll by them and play a <b> harmonic, mechanical, or verbal</b> sound at the five-second mark, with silence as the control condition.</p>
+                    <h2> Observations &amp; Intercept Interviews </h2>
+                    <p> As our service area was quite broad, simply locating an available library book, we set out to understand all the different ways someone could locate a book. This could be digitally, physically, through delivery services, or even AR. We strategized how to ensure we were hearing <b> diverse and well-rounded perspectives</b> in a week of rapid research. We delegated the work so that I took on the in-person intercept interviews and observations, as I had experience doing so. Our research goals were as follows: </p>
+                    <ul>
+                        <li>Understand the current process of locating an available library book  </li>
+                        <li>Highlight pain points and areas of improvement  </li>
+                        <li>Explore different contexts (digital vs in-library)</li>
+                        <li>Interview both library-goers and librarians/library service providers to get various stakeholder perspectives</li>
+                    </ul>
                     <div className="work-img row">
                         <img src={comp2} alt="participant walking next to misty robot" />
                     </div>
-                    <p> Participants after each condition would fill out a short <b> Likert Scale-based survey</b> to test common principles of discomfort to gauge how sound was effecting their perception and feelings. </p>
+                    <p> We conducted tests with both experienced and new library website users to understand how they utilized or perceived the current systems. We would ask them to locate a specific book and walk us through the steps they would take to do so. </p>
+                    <p>We then built a collaborative user journey map based on all of our research findings that highlighted the pain areas of frustration.</p>
                     <div className="work-img">
                         <img src={journeymap} alt="survey that was given to each participant" />
                     </div>
                     <div className="insight">
                         <FontAwesomeIcon icon={faGrinStars} />
-                        <h2> Harmonic sound significantly increased pedestrian perception of robots as "sociable and not awkward". </h2>
+                        <h2> People find the lack of transparency around pick-up time frustrating </h2>
                     </div>
                     <div className="insight">
                         <FontAwesomeIcon icon={faQuoteLeft} />
-                        <h2> No voice at all is little bit weird, I expected it to say something or make some sound instead of following me silently </h2>
+                        <h2>I usually search for the book online before heading to the library to get it. </h2>
                         <FontAwesomeIcon icon={faQuoteRight} />
                     </div>
+                    <h2> Prototyping &amp; Usability Testing </h2>
+                    <p> We first built paper prototypes and simple wireframes and conducted think-aloud testing with users. As a researcher, I alternated between leading interview sessions and observing / note taking while looking for key themes among participants.</p>
+                    <p> One key insight that emerged was that many people compared their experiences to those on e-commerce websites, even though the process of using the library is very different.</p>
                     <div className="work-img">
-                        <img src={proto} alt="quantitative results of study displayed in bar chart with verbal and harmonic being most sociable" />
+                        <img src={proto} alt="lo-fi prototype of application" />
                     </div>
                     <div className="work-img">
-                        <img src={wireframe} alt="quantitative results of study displayed in bar chart with verbal and harmonic being most sociable" />
+                        <img src={wireframe} alt="lo-fi prototype of application with comments and notes" />
                     </div>
-                    <h2> Field Study </h2>
-                    <p> As part of a collaboration with Kiwibot, the City of Pittsburgh, and Carnegie Mellon I conducted <b>field observations and intercept interviews </b> from September - December 2021 during a pilot rollout of delivery robots. </p>
-                    <p> I spent time getting to know the area and neighborhood the deployment was running in, working with the robotics company, and synthesizing findings with colleagues to <b> discover common themes.</b>  </p>
-                    <p> This process underscored the importance of blending in for this more ethnographic study and how <b> taking notes or jottings during intercept interviews could change the dynamic </b> between the interviewee and me. It was a great lesson in how to balance immersing myself in a setting to emphathize with users while still ensuring I noted down the most accurate information possible. </p>
+                    <p>In initial prototype-testing sessions, users also missed the highlight placed on "closest available" or "first available" locations. I realized that we might need to reframe our solution to better enforce the option for users to select a different branch based on their proximity and how soon they could pick up the book.</p>
                     <div className="insight">
                         <FontAwesomeIcon icon={faGrinStars} />
-                        <h2> Communication between robots and pedestrians is crucial to increase comfort and safety on the sidewalk.  </h2>
-                    </div>
-                    <div className="insight">
-                        <FontAwesomeIcon icon={faQuoteLeft} />
-                        <h2> The message helped me with my awareness that it was there </h2>
-                        <FontAwesomeIcon icon={faQuoteRight} />
+                        <h2> Calendars reinforce users' mental models of date-related options  </h2>
                     </div>
                     <div className="work-img">
-                        <img src={zoom} alt="screenshot of zoom storyboarding research session" />
+                        <img src={zoom} alt="screenshot of zoom research session" />
                     </div>
                     <div className="insight">
                         <FontAwesomeIcon icon={faQuoteLeft} />
-                        <h2>Did you know it carries Pizza? That seems like an expensive way to deliver Pizza.</h2>
+                        <h2>I might be okay to wait longer if I know I can get it within walking distance</h2>
                         <FontAwesomeIcon icon={faQuoteRight} />
                     </div>
                     <div className="insight">
                         <FontAwesomeIcon icon={faGrinStars} />
-                        <h2> People need context and transparency as to what the purpose of PDDs are. </h2>
+                        <h2> People are willing to wait for a library book, but need clear communication on timeline </h2>
                     </div>
                 </div>
             </div>
             <div id="final-sol" className="row">
                 <div className="solution">
                     <div className="title"> Findings </div>
-                    <p className="solution"> Robots in pedestrian settings should employ <b> clear communication </b> and <b> audio + visual cues</b> to alert humans of their intent. Context and proxemics matter here and must be taken into consideration when choosing specific sounds. </p>
-                    <p className="solution"> Further research needs to be done on how to ensure these devices do not cause mobility problems for people with disabilities, and the study should encompass more of the city with a wide range of neighborhoods. </p>
-                    <div className="work-img">
-                        <img src={libgif} alt="screenshot of zoom storyboarding research session" />
+                    <p className="solution"> People often compare library websites to e-commerce sites like Amazon and Barnes &amp; Noble, when in reality the experiences are very different. Through user research, I <b>pinpointed the need for
+                        transparency </b>with users into the library process, especially possible wait times.</p>
+                    <p className="solution">Through <b> evaluative research on initial prototypes</b>, I was able to more clearly communicate the relationship between pick-up time and the location of a library with users. I <b> used proven design patterns to reinforce users' mental models</b> but also differentiated the library from e-commerce by highlighting the local aspect and embracing users' ties to their neighborhood branches.</p>
+                    <div className="work-img figma">
+                        <img src={libgif} alt="gif of application interactive prototype" />
                     </div>
                 </div>
             </div>

@@ -32,12 +32,17 @@
             }
         }
         img {
-            height: 400px;
+            height: 300px;
             margin: 20px;
         }
         &.row {
             display: flex;
             padding: 0;
+        }
+        &.figma {
+            img {
+                height: 400px;
+            }
         }
     }
     h1 {
@@ -64,7 +69,7 @@
             color: $lightgreen;
             font-size: 20px;
             &.solution {
-                font-size: 24px;
+                font-size: 20px;
                 color: $lightgreen;
             }
             &.back-section {
@@ -80,7 +85,7 @@
             padding: 4px;
         }
         img {
-            height: 400px;
+            height: 300px;
         }
     }
     .methods {
@@ -104,6 +109,7 @@
             padding: 20px 40px;
             h2 {
                 margin-left: 10px;
+                padding-top: 0px;
             }
         }
     }
