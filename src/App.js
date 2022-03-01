@@ -12,7 +12,7 @@ import Ucre from './Ucre/Ucre';
 import HRI from './HRI/HRI';
 import Lib from './Lib/Lib';
 import CSX from './CSX/CSX';
-import resume from './Healy_Dwyer_2021_resume.pdf';
+import resume from './HealyDwyerSpring22Resume.pdf';
 import Footer from './Footer';
 
 class App extends React.Component {
