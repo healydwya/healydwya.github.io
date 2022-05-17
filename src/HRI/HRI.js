@@ -3,6 +3,8 @@ import hri1 from '../hri1.webp';
 import hri2 from '../hri2.png';
 import hri4 from '../hri3.png';
 import hri3 from '../hri4.JPG';
+import paper from '../HRI_paper.png';
+import conf from '../HRI_Conf.png';
 import pdd2 from '../pdd2.webp';
 import hri5 from '../hri5.png';
 import pdd1 from '../PDD1.jpg';
@@ -128,6 +130,18 @@ function HRI(props) {
                     <p className="solution"> Robots in pedestrian settings should employ <b> clear communication </b> and <b> audio + visual cues</b> to alert humans of their intent. Context and proxemics matter here and must be taken into consideration when choosing specific sounds. </p>
                     <p className="solution"> Further research needs to be done on how to ensure these devices do not cause mobility problems for people with disabilities, and the study should encompass more of the city with a wide range of neighborhoods. </p>
                     <div className="work-img">
+                    </div>
+                </div>
+            </div>
+            <div id="impact" className="row">
+                <div className="solution">
+                    <div className="title"> Impact </div>
+                    <p className="solution"> Presented recommendations to City of Pittsburgh Department of Mobility and Infrastructure, Kiwibot, and the Bloomfield Development Corporation. <br></br></p>
+                    <p className="solution"> Guided future city policy on deployments and pilot testing of PDDs to include more testing with people with disabilities and a wider range of topographies and neighborhoods. Influenced future design of delivery robots to include additional communication and transparency in both visual and audible forms with passing pedestrians. </p>
+                    <p className="solution"> Presented findings and published research at the IEEE / ACM Conference on Human-Robot Interaction at the <a target="_blank" href="https://sites.google.com/view/hripublicspaces2022/schedule?authuser=0" rel="noreferrer">HRI in Public Spaces Workshop. </a> </p>
+                    <div className="impact-img">
+                        <img src={paper} alt="screenshot of research paper" />
+                        <img src={conf} alt="screenshot of zoom presentation at HRI conference" />
                     </div>
                 </div>
             </div>
