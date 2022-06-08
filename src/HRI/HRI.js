@@ -1,6 +1,7 @@
 import './HRI.scss';
 import hri1 from '../hri1.webp';
 import hri2 from '../hri2.png';
+import robo from '../robo.png';
 import hri4 from '../hri3.png';
 import hri3 from '../hri4.JPG';
 import paper from '../HRI_paper.png';
@@ -24,12 +25,20 @@ function HRI(props) {
             <div className="row">
                 <NavLink to='/work'> <p className="back-section"> <FontAwesomeIcon className="icon" icon={faArrowLeft} /> Back to All Projects </p></NavLink>
             </div>
-            <h1 className="title">
-                Pedestrian-Robot Interaction
-            </h1>
-            <div className="work-img row">
-                <img src={hri1} alt="logo" />
-                <img src={pdd2} alt="logo" />
+            <div className="row page-header">
+                <div className="text">
+                    <h1 className="page-title">
+                        Pedestrian-Robot Interaction
+                    </h1>
+                    <div className="overview"> Research project with Kiwibot, the City of Pittsburgh, &amp; Carnegie Mellon Equitable Mobility Lab</div>
+                    <div className="date"> August 2021 - January 2022 </div>
+                    <div className="summary"> I conducted research on the rollout of sidewalk delivery robots in Pittsburgh
+                        and investigated ways to improve human-robot interaction in a pedestrian setting.
+                    </div>
+                </div>
+                <div>
+                    <img src={robo} alt="logo" />
+                </div>
             </div>
             <div className="row">
                 <div className="summary">
@@ -62,6 +71,8 @@ function HRI(props) {
                     <p className="members"> Jacqueline Liao, David Weinberg, Sarah Fox, Nik Martelaro, Kiwibot, City of Pittsburgh Mobility and Infrastructure</p>
                     <div className="work-img">
                         <img src={hri3} alt="logo" />
+                        <img src={hri1} alt="logo" />
+                        <img src={pdd2} alt="logo" />
                     </div>
                 </div>
             </div>

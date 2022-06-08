@@ -1,6 +1,7 @@
 import './CSX.scss';
 import demo from './demo.JPG';
 import demo2 from './demo2.jpg';
+import csx from '../csx.png';
 import yard from './yard.JPG';
 import group from './group.JPG';
 import wallmount from './wallmount.JPG';
@@ -19,21 +20,30 @@ function CSX(props) {
     return (
         <div className="csx-page">
             <div className="row">
-                <NavLink to='/work'> <p className="back-section"> <FontAwesomeIcon className="icon" icon={faArrowLeft} /> Back to All Projects </p></NavLink>
+                <NavLink to='/work'> <p className="back-section"> <FontAwesomeIcon className="icon" icon={faArrowLeft} /> Back to all projects </p></NavLink>
             </div>
-            <h1 className="title">
-                Car Repair Everywhere
-            </h1>
-            <div className="work-img row">
-                <img src={demo2} alt="logo" />
+            <div className="row page-header">
+                <div className="text">
+                    <h1 className="page-title">
+                        Car Repair Everywhere
+                    </h1>
+                    <div className="overview"> Research project at CSX Technology</div>
+                    <div className="date"> January 2019 - January 2020 </div>
+                    <div className="summary"> I conducted formative research and wrote front-end code for the rewrite of a legacy
+                        web application that led to cost savings and an improved user experience for rail workers.
+                    </div>
+                </div>
+                <div>
+                    <img src={csx} alt="logo" />
+                </div>
             </div>
             <div className="row">
                 <div className="summary">
                     <div className="title"> My Role </div>
                     <ul>
-                        <li><b>Led field observations </b> in rail yards throughout the southeast region</li>
+                        <li><b>Led contextual inquiries </b> in rail yards throughout the southeast region</li>
                         <li> <b>Conducted interviews </b> and think-aloud sessions for <b>usability testing </b></li>
-                        <li> <b>Developed survey </b> and analyzed results to better understand railroad repair workers</li>
+                        <li> <b>Designed survey </b> and analyzed results to better understand railroad repair workers</li>
                         <li> <b> Increased efficiency </b> of design and development process and led to a <b> more thorough billing process</b> for repairs. </li>
                     </ul>
                 </div>
@@ -88,7 +98,7 @@ function CSX(props) {
                     <div className="work-img">
                         <img src={demo} alt="demo of legacy application for rail workers" />
                     </div>
-                    <h2> Surveys </h2>
+                    <h2> Survey </h2>
                     <p> Created a survey alongside project UX designer to better understand current pain points and important uses of application.</p>
                     <p> Analyzed qualitative and quantitative results in order to direct further research and development plan.</p>
                     <div className="work-img">

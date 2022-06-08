@@ -19,17 +19,17 @@ function Skills(props) {
                                     <div>
                                         <h2> Car Repair Everywhere </h2>
                                         <h3> User Research &amp; Prototyping </h3>
-                                        <p className="desc"> CSX Transportation </p>
+                                        <p className="desc"> CSX Technology </p>
                                     </div>
                                     <div>
-                                        <p className="long-desc"> Conducting research in rail yards to guide redesign of legacy application</p>
+                                        <p className="long-desc"> Conducting research in rail yards to guide the redesign of a legacy application used for billing and tracking.</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="methods">
                                 <div> Usability Testing </div>
                                 <div> Ethnography </div>
-                                <div> Surveys </div>
+                                <div> Survey Design</div>
                             </div>
                         </div>
                     </Link>
@@ -41,15 +41,15 @@ function Skills(props) {
                                     <div>
                                         <h2> Pedestrian-Robot Interaction </h2>
                                         <h3> Mixed Methods UX Research </h3>
-                                        <p className="desc"> Kiwibot + Carnegie Mellon Robotics Institute </p>
+                                        <p className="desc"> Kiwibot + PGH Dept. of Mobility &amp; Infrastructure </p>
                                     </div>
                                     <div>
-                                        <p className="long-desc"> Investigating the effect of sound on human perceptions of autonomous robots that share the sidewalk</p>
+                                        <p className="long-desc"> Community centered study of a deployment of autonomous delivery robots on public sidewalks. </p>
                                     </div>
                                 </div>
                             </div>
                             <div className="methods">
-                                <div> Surveys </div>
+                                <div> Survey </div>
                                 <div> Participatory Design </div>
                                 <div> Statistical Analysis </div>
                             </div>
@@ -68,7 +68,7 @@ function Skills(props) {
                                         <p className="desc"> Carnegie Mellon Human-Computer Interaction Institute </p>
                                     </div>
                                     <div>
-                                        <p className="long-desc"> Studying how to encourage everyday users to audit algorithmic bias on social media platforms </p>
+                                        <p className="long-desc"> Analyzing methods of engagement to allow everyday users to audit algorithmic bias on social media platforms. </p>
                                     </div>
                                 </div>
                             </div>
@@ -90,7 +90,7 @@ function Skills(props) {
                                         <p className="desc"> Carnegie Library of Pittsburgh </p>
                                     </div>
                                     <div>
-                                        <p className="long-desc"> Synthesizing rapid research on the library book location process to improve the service design </p>
+                                        <p className="long-desc"> Guiding the design process for the mobile application + website used to locate and request library books. </p>
                                     </div>
                                 </div>
                             </div>

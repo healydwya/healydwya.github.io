@@ -32,7 +32,6 @@
         .row {
             height: 70%;
             display: flex;
-            align-items: center;
             p {
                 padding-bottom: 10px;
                 margin: 4px;
@@ -73,14 +72,12 @@
                 flex-direction: column;
                 justify-content: space-between;
                 .desc {
-                    font-size: 14px;
+                    font-size: 16px;
                 }
             }                
             .methods {
                 padding-top: 10px;
                 display: flex;
-                width: 100%;
-                margin: 20px;
                 padding: 20px;
                 font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
                 div {
