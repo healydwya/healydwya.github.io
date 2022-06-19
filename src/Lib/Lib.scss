@@ -2,6 +2,7 @@
 @import "../variables";
 
 .lib-page {
+    padding: 0 60px;
     a {
         text-decoration: none;
         .back-section {
@@ -20,7 +21,6 @@
             }
         }
     }
-    padding: 0 200px;
     .work-img {
         display: flex;
         justify-content: center;
@@ -46,7 +46,6 @@
         }
     }
     h1 {
-        padding-left: 40px;
         color: $lightgreen;
     }
     .row {
@@ -87,6 +86,28 @@
         img {
             height: 300px;
         }
+        &.page-header {
+            img {
+                margin-left: 40px;
+            }
+                .text {
+                    padding-right: 46px;
+                    .summary {
+                        margin-top: 20px;
+                        font-size: 28px;
+                    }
+                    .date {
+                        color: $lightgreen;
+                        font-weight: 700;
+                        font-size: 16px;
+                    }
+                    .overview {
+                        font-size: 20px;
+                        font-weight: 700;
+                        margin: 10px 0;
+                    }
+                }
+            }
     }
     .methods {
         display: flex;
@@ -134,8 +155,10 @@
     .lib-page {
         padding: 0;
         .work-img {
+            flex-direction: column;
             img {
-                height: 20vh;
+                max-width: 100%;
+                height: auto;
             }
             &.row {
                 justify-content: flex-start;
@@ -154,6 +177,19 @@
                 }
                 &.back-section {
                     cursor: pointer;
+                }
+            }
+            &.page-header {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .text {
+                    padding-right: 40px;
+                }
+                img {
+                    margin-left: 0;
+                    height: 200px;
+                    padding-top: 10px;
                 }
             }
         }

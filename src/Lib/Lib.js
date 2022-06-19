@@ -5,6 +5,7 @@ import bookscout from './bookscout.png';
 import comp2 from './comp2.png';
 import journeymap from './journeymap.png';
 import library from './library.png';
+import lib from './lib_app.png';
 import map from './map.png';
 import wireframe from './wireframecrit.png';
 import proto from './proto1.png';
@@ -22,11 +23,20 @@ function Lib(props) {
             <div className="row">
                 <NavLink to='/work'> <p className="back-section"> <FontAwesomeIcon className="icon" icon={faArrowLeft} /> Back to All Projects </p></NavLink>
             </div>
-            <h1 className="title">
-                Book Scout
-            </h1>
-            <div className="work-img title">
-                <img src={bookscout} alt="logo" />
+            <div className="row page-header">
+                <div className="text">
+                    <h1 className="page-title">
+                        Book Scout
+                    </h1>
+                    <div className="overview"> Design project with the Carnegie Library of Pittsburgh</div>
+                    <div className="date"> October 2021 - November 2021 </div>
+                    <div className="summary"> I conducted generative and evaluative research on the process of checking out a library book in Pittsburgh
+                        + designed and testing early prototypes targeted toward improving the experience.
+                    </div>
+                </div>
+                <div className="work-img title">
+                    <img src={lib} alt="logo" />
+                </div>
             </div>
             <div className="row">
                 <div className="summary">

@@ -1,5 +1,6 @@
 import './Ucre.scss';
 import graphic from '../graphic.png';
+import alg from '../alg_act.png';
 import thinkaloud from '../Think_Aloud.png';
 import chat from '../chat.jpg';
 import bias from '../bias.png';
@@ -21,11 +22,20 @@ function Ucre(props) {
             <div className="row">
                 <NavLink to='/work'> <p className="back-section"> <FontAwesomeIcon className="icon" icon={faArrowLeft} /> Back to All Projects </p></NavLink>
             </div>
-            <h1 className="title">
-                Algorithmic Activism
-            </h1>
-            <div className="work-img">
-                <img src={graphic} alt="logo" />
+            <div className="row page-header">
+                <div className="text">
+                    <h1 className="page-title">
+                        Algorithmic Activism
+                    </h1>
+                    <div className="overview"> Design project with the Carnegie Library of Pittsburgh</div>
+                    <div className="date"> October 2021 - November 2021 </div>
+                    <div className="summary"> I conducted generative and evaluative research on the process of checking out a library book in Pittsburgh
+                        + designed and testing early prototypes targeted toward improving the experience.
+                    </div>
+                </div>
+                <div className="work-img title">
+                    <img src={alg} alt="logo" />
+                </div>
             </div>
             <div className="row">
                 <div className="summary">
