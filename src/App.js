@@ -10,6 +10,7 @@ import {
 import Skills from './Skills';
 import Ucre from './Ucre/Ucre';
 import HRI from './HRI/HRI';
+import Honda from './Honda/Honda';
 import Lib from './Lib/Lib';
 import CSX from './CSX/CSX';
 import resume from './HealyDwyer_2022_Resume.pdf';
@@ -58,6 +59,8 @@ class App extends React.Component {
           <Route path="/hri" element={<HRI />}>
           </Route>
           <Route path="/csx" element={<CSX />}>
+          </Route>
+          <Route path="/honda" element={<Honda />}>
           </Route>
           <Route path="/lib" element={<Lib />}>
           </Route>

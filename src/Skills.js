@@ -2,6 +2,8 @@ import csx from './csx.png';
 import books from './books.png';
 import alg from './alg_act.png';
 import robot from './robo.png';
+import honda from './Honda/Honda_person.png';
+import brain from './Brain.png';
 import './Skills.scss';
 import { Link } from 'react-router-dom';
 
@@ -18,7 +20,7 @@ function Skills(props) {
                                 <div className="card-text">
                                     <div>
                                         <h2> Car Repair Everywhere </h2>
-                                        <h3> User Research &amp; Prototyping </h3>
+                                        <h3> User Research &amp; Engineering </h3>
                                         <p className="desc"> CSX Technology </p>
                                     </div>
                                     <div>
@@ -27,9 +29,9 @@ function Skills(props) {
                                 </div>
                             </div>
                             <div className="methods">
-                                <div> Usability Testing </div>
-                                <div> Ethnography </div>
+                                <div> Contextual Inquiry </div>
                                 <div> Survey Design</div>
+                                <div> Usability Testing </div>
                             </div>
                         </div>
                     </Link>
@@ -40,7 +42,7 @@ function Skills(props) {
                                 <div className="card-text">
                                     <div>
                                         <h2> Pedestrian-Robot Interaction </h2>
-                                        <h3> Mixed Methods UX Research </h3>
+                                        <h3> Mixed Methods Research </h3>
                                         <p className="desc"> Kiwibot + PGH Dept. of Mobility &amp; Infrastructure </p>
                                     </div>
                                     <div>
@@ -49,15 +51,15 @@ function Skills(props) {
                                 </div>
                             </div>
                             <div className="methods">
-                                <div> Survey </div>
-                                <div> Participatory Design </div>
+                                <div> Experimental Design </div>
+                                <div> Ethnography </div>
                                 <div> Statistical Analysis </div>
                             </div>
                         </div>
                     </Link>
                 </div>
                 <div className="row">
-                    <Link to="/ucre" className="link-body">
+                    {/*                     <Link to="/ucre" className="link-body">
                         <div className="card">
                             <div className="row">
                                 <img src={alg} className="card-img alg" alt="logo" />
@@ -76,6 +78,28 @@ function Skills(props) {
                                 <div> Contextual Inquiry </div>
                                 <div> Think-Aloud Testing </div>
                                 <div> Python </div>
+                            </div>
+                        </div>
+                    </Link> */}
+                    <Link to="/honda" className="link-body">
+                        <div className="card">
+                            <div className="row">
+                                <img src={honda} className="card-img honda" alt="logo" />
+                                <div className="card-text">
+                                    <div>
+                                        <h2> Honda - MHCI Capstone </h2>
+                                        <h3> Mixed Methods Research </h3>
+                                        <p className="desc"> Honda R&amp;D Americas </p>
+                                    </div>
+                                    <div>
+                                        <p className="long-desc"> Studying the future of user needs in self-driving, shared transportation vehicles.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="methods">
+                                <div> Diary Study </div>
+                                <div> Contextual Inquiry </div>
+                                <div> Concept Testing </div>
                             </div>
                         </div>
                     </Link>

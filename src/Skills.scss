@@ -65,6 +65,9 @@
                 width: 30%;
                 padding: 20px;
                 align-self: center;
+                &.honda {
+                    width: 40%
+                }
             }
             .card-text {
                 padding: 20px;      

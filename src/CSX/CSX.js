@@ -30,7 +30,7 @@ function CSX(props) {
                     <div className="overview"> Research project at CSX Technology</div>
                     <div className="date"> January 2019 - January 2020 </div>
                     <div className="summary"> I conducted formative research and wrote front-end code for the rewrite of a legacy
-                        web application that led to cost savings and an improved user experience for rail workers.
+                        web application that led to cost savings, increased accuracy, and an improved experience for railroad repair teams.
                     </div>
                 </div>
                 <div>
@@ -41,10 +41,10 @@ function CSX(props) {
                 <div className="summary">
                     <div className="title"> My Role </div>
                     <ul>
+                        <li> <b> Lead front-end developer</b> and <b> researcher </b></li>
                         <li><b>Led contextual inquiries </b> in rail yards throughout the southeast region</li>
                         <li> <b>Conducted interviews </b> and think-aloud sessions for <b>usability testing </b></li>
                         <li> <b>Designed survey </b> and analyzed results to better understand railroad repair workers</li>
-                        <li> <b> Increased efficiency </b> of design and development process and led to a <b> more thorough billing process</b> for repairs. </li>
                     </ul>
                 </div>
             </div>
@@ -53,7 +53,6 @@ function CSX(props) {
                     <div className="title"> Overview </div>
                     <p> I <b> conducted generative and evaluative research</b> throughout the rewrite of a legacy application for train car repairs.</p>
                     <p> The insights from this research led to more clarity on requirements that streamlined the development process and led to code being dynamic instead of hard-coded, which <b>increased efficiency and scalability.</b> </p>
-                    <p> We also implemented offline storage and a tablet version of the application for "line-of-road" workers conducting repairs in remote areas that <b>led to more accurate reporting and billing.</b></p>
                 </div>
             </div>
             <div className="row">
@@ -66,35 +65,41 @@ function CSX(props) {
             <div className="row">
                 <div className="team">
                     <div className="title"> Collaborators </div>
-                    <p className="members"> CSX UX &amp; Mobility Team, Mechanical Car Team </p>
-                    <div className="work-img">
+                    <p className="members"> <b>Me (Front-end &amp; Research Lead) </b> </p>
+                    <p className="members"> UX Designer </p>
+                    <p className="members"> Project Manager </p>
+                    <p className="members"> Product Manager </p>
+                    <p className="members"> Business Analyst </p>
+                    <p className="members"> Two Business Partners </p>
+                    <p className="members"> Three back-end engineers </p>
+                    {/*                     <div className="work-img">
                         <img src={yard} alt="logo" />
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <div className="row">
                 <div className="methods">
                     <div className="title"> Methods </div>
                     <h2> Ethnographic Field Study </h2>
-                    <p> Spent the day in three rail yard locations for 5+ days in order to observe repair process and tracking with current application. </p>
+                    <p> Spent the day in three rail yard locations for a total of five days. My team and I observed repair process and tracking with current application. </p>
                     <p> Conducted semi-structured interviews in a contextual inquiry format while workers were conducting repairs and working in the shop office to log billing information. </p>
-                    <p> Met with lead repair workers who mostly utilize the desktop in-shop version of the application, and with line-of-road workers to understand both desktop and mobile variations of user needs.</p>
+                    <p> Met with lead repair workers who mostly utilized the browser-based, in-shop version of the application, and with traveling teams to understand both desktop and mobile variations of user needs.</p>
                     <div className="work-img">
                         <img src={group} alt="group of rail workers" />
                     </div>
-                    <p> We investigated utilizing tablets for the line-of-road repair application, leading to the name "Car Repair Everywhere". </p>
+                    {/*                     <p> We investigated utilizing tablets for the line-of-road repair application, leading to the name "Car Repair Everywhere". </p>
                     <div className="work-img">
                         <img src={wallmount} alt="wall mounted tablets" />
-                    </div>
+                    </div> */}
                     <div className="insight">
                         <FontAwesomeIcon icon={faGrinStars} />
-                        <h2> Offline capabilities and portability is key to increasing repair tracking capabilities  </h2>
+                        <h2> Offline functionality and portability is key to increasing repair tracking capabilities  </h2>
                     </div>
-                    <div className="insight">
+                    {/*                     <div className="insight">
                         <FontAwesomeIcon icon={faQuoteLeft} />
                         <h2> Not every shop that wants [this application] currently can have it because we have to hard code each map </h2>
                         <FontAwesomeIcon icon={faQuoteRight} />
-                    </div>
+                    </div> */}
                     <div className="work-img">
                         <img src={demo} alt="demo of legacy application for rail workers" />
                     </div>
@@ -104,40 +109,40 @@ function CSX(props) {
                     <div className="work-img">
                         <img src={phone} alt="screenshot of zoom storyboarding research session" />
                     </div>
-                    <div className="insight">
+                    {/*                     <div className="insight">
                         <FontAwesomeIcon icon={faGrinStars} />
                         <h2> While a map view of the shop is a "nice-to-have", the order of cars is what most of the repair tracking job relies on</h2>
-                    </div>
-                    <div className="insight">
+                    </div> */}
+                    {/*                     <div className="insight">
                         <FontAwesomeIcon icon={faQuoteLeft} />
                         <h2> I count cars to see where the one I need to repair is in the yard</h2>
                         <FontAwesomeIcon icon={faQuoteRight} />
-                    </div>
+                    </div> */}
                     <h2> Usability Testing </h2>
                     <p> Built a prototype of the mobile application in Angular and Cordova and deployed it to Android tablets for testing in the field.</p>
                     <p> Conducted think-aloud testing with repair workers as they walked through the app to identify areas for improvement and further development.</p>
-                    <div className="work-img">
+                    {/*                     <div className="work-img">
                         <img src={pals} alt="csx workers showing one of our applications" />
                     </div>
                     <div className="work-img">
                         <img src={whiteboard} alt="whiteboarding with a coworker" />
-                    </div>
+                    </div> */}
                     <div className="insight">
                         <FontAwesomeIcon icon={faQuoteLeft} />
-                        <h2>Sometimes I start logging my repair while I'm on the road and finish it back on the shop computer</h2>
+                        <h2>Usually I write down the details while I'm on the road and finish it back on the shop computer.</h2>
                         <FontAwesomeIcon icon={faQuoteRight} />
                     </div>
                     <div className="insight">
                         <FontAwesomeIcon icon={faGrinStars} />
-                        <h2> Repair workers want offline capability with the option to complete repairs on a desktop when they get back to the shop </h2>
+                        <h2> Repair workers need the option to complete workflows in multiple settings as their job is highly variable. </h2>
                     </div>
                 </div>
             </div>
             <div id="final-sol" className="row">
                 <div className="solution">
-                    <div className="title"> Findings </div>
-                    <p className="solution"> <b> Offline capability is a must</b> as repairs are often done in remote places with little to no connectivity. </p>
-                    <p className="solution"> Solution must be <b> scalable to over 200 repair shops</b> with different layouts. We learned that the exact yard layout and mapping does not matter as much as a <b>visual representation of car order along rail lines </b>, which helped allow code to be dynamically written. </p>
+                    <div className="title"> Impact </div>
+                    <p className="solution"> <b> Three key design recommendations were implemented</b> in the resulting application which rolled out to over 4,000 rail workers in the field. </p>
+                    <p className="solution"> <b>Development timeline was shortened by eight months due to research findings </b> which led to a more dynamic design. By discovering that the application could be location-agnostic, I decreased design and development complexity. </p>
                     <div className="work-img">
                     </div>
                 </div>
