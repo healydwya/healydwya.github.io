@@ -41,7 +41,7 @@ class Home extends React.Component {
                         {this.state.theme === 'jags' &&
                             <h1> DUUUUUVAL </h1>
                         }
-                        <p> I'm Healy - a bicycle-riding software engineer turned UX researcher. Outside of work I'm a transportation advocate, and <a rel="noreferrer" target="_blank" className="bounce" href="https://www.hcii.cmu.edu/academics/mhci">Carnegie Mellon HCI</a> graduate student. </p>
+                        <p> I'm Healy - a bicycle-riding software engineer turned UX researcher. Outside of work, I'm a transportation advocate and graduate of <a rel="noreferrer" target="_blank" className="bounce" href="https://www.hcii.cmu.edu/academics/mhci"> Carnegie Mellon MHCI</a>. </p>
                         <p className="small-text"> For more fun, try <a className="mode" onClick={(e) => this.changeTheme('cowgirl', e)} href="/"> Western, </a> <a className="mode" onClick={(e) => this.changeTheme('jags', e)} href="/"> Jacksonville, </a>  or <a className="mode" onClick={(e) => this.changeTheme('steelers', e)} href="/"> Pittsburgh Mode </a> </p>
                         {this.state.theme === 'cowgirl' &&
                             <Link to="/work" className="link-body">
