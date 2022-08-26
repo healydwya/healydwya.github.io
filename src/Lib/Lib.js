@@ -31,7 +31,7 @@ function Lib(props) {
                     <div className="overview"> Design project with the Carnegie Library of Pittsburgh</div>
                     <div className="date"> October 2021 - November 2021 </div>
                     <div className="summary"> I conducted generative and evaluative research on the process of checking out a library book in Pittsburgh
-                        + designed and testing early prototypes targeted toward improving the experience.
+                        + designed and tested early prototypes targeted toward improving the experience.
                     </div>
                 </div>
                 <div className="work-img title">
