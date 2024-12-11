@@ -13,7 +13,7 @@ import HRI from './HRI/HRI';
 import Honda from './Honda/Honda';
 import Lib from './Lib/Lib';
 import CSX from './CSX/CSX';
-import resume from './HealyDwyer_2022_Resume.pdf';
+import resume from './Healy_Dwyer_2024_resume.pdf';
 import Footer from './Footer';
 
 class App extends React.Component {
